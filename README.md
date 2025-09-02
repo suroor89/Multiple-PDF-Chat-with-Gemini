@@ -1,2 +1,4 @@
 # Multiple-PDF-Chat-with-Gemini
-Use Multiple PDF to chat with Gemini Model
+**Use Multiple PDF to chat with Gemini Model**
+
+Using multiple PDFs with the Gemini Model allows developers to build a chat system where the model can reference information from several documents simultaneously. The workflow typically involves uploading or loading multiple PDF files, parsing their contents into text, and then chunking the text into manageable sections for embedding. These embeddings are stored in a vector database (such as Pinecone, Weaviate, or FAISS), which supports similarity search across all documents. When a user asks a question, the system retrieves the most relevant chunks from across the PDFs and provides them as context to the Gemini Model. This ensures that responses are grounded in the uploaded material, enabling document-aware Q&A, summarization, or cross-document reasoning. By using multiple PDFs as input, developers can create more robust and context-rich conversational applications that scale beyond single-document interactions.
