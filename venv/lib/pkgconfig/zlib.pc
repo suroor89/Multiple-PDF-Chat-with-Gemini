@@ -1,0 +1,13 @@
+prefix=/Users/suroor/Documents/Multiple-PDF-Chat-with-Gemini/venv
+exec_prefix=/Users/suroor/Documents/Multiple-PDF-Chat-with-Gemini/venv
+libdir=/Users/suroor/Documents/Multiple-PDF-Chat-with-Gemini/venv/lib
+sharedlibdir=/Users/suroor/Documents/Multiple-PDF-Chat-with-Gemini/venv/lib
+includedir=/Users/suroor/Documents/Multiple-PDF-Chat-with-Gemini/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
